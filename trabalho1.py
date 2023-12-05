@@ -33,8 +33,7 @@ elif 1000 <= sem_desconto < 3000:
 elif 3000 <= sem_desconto < 5000:
     print('O valor COM desconto: R${}'.format(d3))
 # Valor com desconto de 8%:
-elif sem_desconto >= 5000:
-    print('O valor COM desconto: R${}'.format(d4))
-# Condição para casos não cobertos pelas condições anteriores:
 else:
-    print('Condição não prevista. Verifique os valores inseridos.')
+    sem_desconto >= 5000
+    print('O valor COM desconto: R${}'.format(d4))
+    
